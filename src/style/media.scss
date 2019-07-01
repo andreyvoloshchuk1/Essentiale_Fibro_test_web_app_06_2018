@@ -1,0 +1,641 @@
+@media screen and (max-width: 1920px) {
+  #app {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .content {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .references {
+    position: relative;
+    bottom: auto;
+  }
+  .calc {
+    margin-top: -30px;
+  }
+  .calc__item {
+    height: 38px;
+  }
+  .calc__btn {
+    margin-top: 40px;
+  }
+  .dose__caption {
+    max-height: 400px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .changevalue {
+    width: 82%;
+  }
+  .result__stage {
+    font-size: 2.8vw;
+  }
+  .result__info {
+    font-size: 1.2vw;
+  }
+
+  .restart {
+    width: 300px;
+    font-size: 20px;
+    -webkit-background-size: 100% 120%;
+    background-size: 100% 120%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .left {
+    width: 59%;
+  }
+  .changevalue {
+    width: 80%;
+  }
+  .dose__caption {
+
+  }
+  .dose {
+    width: 76%;
+  }
+  .calc__caption {
+    font-size: 28px;
+    span {
+      font-size: 68px;
+    }
+  }
+  .rules__text {
+    font-size: 8px;
+    line-height: 8px;
+  }
+  .calc__btn {
+    width: 26vw;
+    margin-right: 0;
+  }
+  .calc__item {
+    width: 24vw;
+  }
+  .changevalue {
+    width: 74%;
+  }
+
+  .item-text {
+    font-size: 13px;
+    top: 20px;
+  }
+  .references__item {
+    width: 70%;
+    font-size: 7px;
+  }
+
+  .result__rate {
+    width: 250px;
+    height: 290px;
+  }
+  .result__value {
+    font-size: 36px;
+    span {
+      font-size: 78px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .right {
+    width: 26%;
+    margin-top: -30px;
+  }
+  .dose {
+    width: 100%;
+    margin-top: -20px;
+  }
+  .dose__item {
+    margin: 5px 0;
+  }
+  .left {
+    width: 60%;
+    margin-top: 1vh;
+  }
+  .references {
+    bottom: 4vh;
+  }
+  .calc__field {
+    margin-top: -30px;
+  }
+  .rules__item {
+    width: 33%;
+  }
+  .rules__text {
+    font-size: 7px;
+  }
+  .rules__head {
+    width: 90%;
+    height: 40px;
+    padding: 12px 0;
+    font-size: 1.3vw;
+
+    &:before {
+      border-top: 20px solid transparent;
+      border-right: 10px solid $orange;
+      border-bottom: 20px solid transparent;
+
+      left: -9.5px;
+    }
+
+    &:after {
+      border-top: 20px solid transparent;
+      border-left: 10px solid $orange;
+      border-bottom: 20px solid transparent;
+
+      right: -9.5px;
+    }
+  }
+  .safari {
+    .rules__head {
+      &:before {
+        left: -9.5px;
+      }
+      &:after {
+        right: -9.5px;
+      }
+    }
+  }
+
+  .pack {
+    width: 260px;
+    margin-bottom: 30px;
+  }
+
+  .calc__item {
+    width: 28vw;
+  }
+
+  .references__item {
+    line-height: 7px;
+  }
+
+  .calc__btn {
+    margin: 6vh 10px 3vh 0;
+  }
+
+
+  .result__rate {
+    width: 220px;
+    height: 240px;
+  }
+  .result__stage {
+    font-size: 3.5vw;
+  }
+  .result__info {
+    font-size: 1.4vw;
+    line-height: 1.4;
+  }
+  .result__value {
+    font-size: 32px;
+    span {
+      font-size: 70px;
+    }
+  }
+  .restart {
+    top: 100px;
+    font-size: 20px;
+    -webkit-background-size: 100% 120%;
+    background-size: 100% 120%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .content{
+    padding-bottom: 10vh;
+    background-image: url(./assets/images/bg_tel.png);
+    background-position: right -40px;
+    -webkit-background-size: auto;
+    background-size: auto;
+  }
+  #app {
+    display: block;
+  }
+  .content{
+    -webkit-background-size: 100% 50%;
+    background-size: 100% 50%;
+    display: block;
+  }
+  .wrap {
+    display: block;
+  }
+  .calc{
+    margin-top: 0;
+  }
+  .left {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .right {
+    width: 100%;
+    float: none;
+    margin-top: 0px;
+    background-image: url(./assets/images/bg_tel_2.png);
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    -webkit-background-size: 100% 90%;
+    background-size: 100% 90%;
+
+  }
+  .references {
+    bottom: 0;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .logo-sanofi {
+    position: static;
+    display: block;
+    margin: 20px auto;
+    transform: none;
+  }
+  .calc__item {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .changevalue {
+    width: 88%;
+  }
+
+  .calc__btn {
+    width: 96%;
+    display: block;
+    float: none;
+    margin: 40px auto;
+  }
+
+  .rules__item {
+    width: 100%;
+    p {
+      &:after {
+        content: url(./assets/images/arrow.png);
+
+        position: absolute;
+        right: 10px;
+      }
+    }
+  }
+  .rules__head {
+    width: 98%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 26px;
+    padding: 10px 10px;
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-right: 14px solid $orange;
+      border-bottom: 25px solid transparent;
+
+      position: absolute;
+      left: -14px;
+      top: 0px;
+    }
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-left: 14px solid $orange;
+      border-bottom: 25px solid transparent;
+
+      position: absolute;
+      right: -14px;
+      top: 0px;
+    }
+  }
+  .rules__text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .calc__item {
+    height: 60px;
+  }
+  .item-text {
+    font-size: 20px;
+    top: 8px;
+  }
+
+  .pack {
+    width: 66%;
+    margin-left: 18%;
+    margin-top: 0;
+  }
+
+  .dose {
+    position: relative;
+  }
+  .dose__caption {
+    font-size: 32px;
+    text-align: center;
+  }
+  .dose__list {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .dose__item {
+    font-size: 32px;
+
+  }
+  .rules__item {
+    margin-top: 10px;
+  }
+  .references {
+    position: static;
+    padding: 20px 20px 20px 0px;
+  }
+  .references__item {
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+
+  }
+
+  .result__stage {
+    font-size: 6vw;
+  }
+  .result__info {
+    font-size: 2.2vw;
+  }
+  .result {
+    padding-bottom: 60px;
+  }
+  .footer__text {
+    font-size: 6.5vw;
+
+  }
+
+  .safari {
+    .rules__head {
+      &:before {
+        left: -13.5px;
+      }
+      &:after {
+        right: -13.5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .header {
+    height: 60px;
+  }
+  .logo {
+    height: 40px;
+  }
+  .changevalue {
+    width: 80%;
+  }
+  .calc__caption {
+    font-size: 22px;
+    span {
+      font-size: 32px;
+    }
+  }
+}
+@media screen and (max-width: 440px){
+  .content {
+    padding-bottom: 16vh;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+
+  .changevalue {
+    width: 76%;
+  }
+
+  .calc__item {
+    margin-bottom: 12px;
+    &.red:after {
+      display: none;
+    }
+  }
+
+  .item-text {
+    font-size: 18px;
+    color: darkgrey;
+    padding: 0 10px;
+    top: 20px;
+  }
+  .calc__caption {
+    padding: 0px 20px 0px 20px;
+  }
+  .calc__field {
+    margin-top: -10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .calc__btn {
+    font-size: 20px;
+    font-family: $font-regular;
+    height: 50px;
+
+    &:before {
+      border-top: 25px solid transparent;
+      border-right: 14px solid $green;
+      border-bottom: 25px solid transparent;
+
+      left: -14px;
+      top: 0px;
+    }
+    &:after {
+      border-top: 25px solid transparent;
+      border-left: 14px solid $green;
+      border-bottom: 25px solid transparent;
+
+      right: -14px;
+      top: 0px;
+    }
+  }
+
+  .rules__item {
+    margin-top: 10px;
+  }
+
+  .right {
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+  .left {
+    padding: 20px 0;
+  }
+
+  .rules__head {
+    width: 89%;
+    font-size: 20px;
+    padding: 14px 10px;
+    p {
+      &:after {
+        content: url(./assets/images/arrow.png);
+
+        position: absolute;
+        right: 10px;
+      }
+    }
+  }
+  .rules__text {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .pack {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .dose {
+    margin-top: 20px;
+  }
+  .dose__caption {
+    font-size: 24px;
+  }
+  .dose__list {
+    width: 208px;
+  }
+  .dose__item {
+    font-size: 24px;
+  }
+
+  .references {
+    opacity: 1;
+
+  }
+
+  .references__item {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0;
+    text-indent: 0;
+  }
+
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 38px;
+    line-height: 80%;
+    letter-spacing: -1px;
+  }
+  .result {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+  }
+  .result__rate {
+    width: 170px;
+    height: 180px;
+    margin: 0;
+
+    left: 10px;
+    top: -16px;
+  }
+  .result__value {
+    font-size: 24px;
+    span {
+      font-size: 48px;
+    }
+  }
+  .result__stage {
+    width: 100px;
+    float: left;
+    font-size: 24px;
+    top: 20px;
+    left: 20px;
+    span {
+      font-size: 56px;
+    }
+  }
+  .result__info {
+    width: 100%;
+    clear: both;
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .restart {
+    width: 98%;
+    -webkit-background-size: 108% 120%;
+    background-size: 108% 120%;
+    box-sizing: border-box;
+    top: 29px;
+    float: none;
+    margin: 0 auto;
+    display: block
+  }
+
+  .result {
+    &.high {
+      background-color: rgba(149, 52, 18, 0.2);
+    }
+    &.medium {
+      background-color: rgba(204, 124, 4, 0.2);
+    }
+    &.low {
+      background-color: rgba(0, 102, 51, 0.2);
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__text{
+    font-size: 30px;
+  }
+  .logo {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+  .item-text {
+    font-size: 14px;
+    top: 30px;
+  }
+
+  .result__stage {
+    span {
+      font-size: 46px;
+    }
+  }
+  .safari{
+    .calc__btn {
+      &:before {
+        left: -13px;
+      }
+      &:after {
+        right: -13px;
+      }
+    }
+  }
+}
+
+
+@media all and (display-mode: standalone) {
+  .install {
+    display: none;
+  }
+}
